@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Kingston DataTraveler</title>
+  </head>
+  <body>
+    <!-- usb body -->
+    <div class="kingston" id="kingston">
+        <div class="slot"></div>
+    </div>
+
+    <!-- available options -->
+    <div class="color-switcher">
+        <div class="option" data-color="#a71212"></div>
+        <div class="option" data-color="#45abab"></div>
+        <div class="option" data-color="#365f8c"></div>
+       
+    </div>
+
+
+    <style>
+        .option {
+            background-color: var(--background-color, #fff);
+        }
+
+        .kingston{
+            background-color: var(--background-color, #202020);
+        }
+    </style>
+
+
+    <script src="./switcher.js"></script>
+  </body>
+</html>
